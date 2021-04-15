@@ -98,6 +98,7 @@ func init() {
 	BlockChainFactories["PIVX Testnet"] = pivx.NewPivXRPC
 	BlockChainFactories["Polis"] = polis.NewPolisRPC
 	BlockChainFactories["Firo"] = firo.NewFiroRPC
+	BlockChainFactories["Firo Testnet"] = firo.NewFiroRPC
 	BlockChainFactories["Fujicoin"] = fujicoin.NewFujicoinRPC
 	BlockChainFactories["Flo"] = flo.NewFloRPC
 	BlockChainFactories["Bellcoin"] = bellcoin.NewBellcoinRPC
